@@ -91,6 +91,8 @@
 }
 
 .header__title {
+  position: relative;
+  z-index: 2;
   width: 730px;
   margin: 0 0 0 64px;
   padding: 0;
@@ -100,13 +102,14 @@
 }
 
 .header__subtitle {
+  position: relative;
+  z-index: 2s;
   width: 388px;
   margin: 0;
   padding: 0;
   position: absolute;
   left: 64px;
   bottom: 30px;
-  z-index: 1;
   font-size: 18px;
   font-weight: normal;
   line-height: 25px;
@@ -133,6 +136,7 @@
   position: absolute;
   right: 0;
   bottom: 0;
+  z-index: 1;
   width: 765px;
   height: 608px;
 }
