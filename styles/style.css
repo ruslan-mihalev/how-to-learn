@@ -1,7 +1,3 @@
-h1, h2, h3, h4, p {
-  margin: 0;
-  padding: 0;
-}
 
 .list {
   margin: 0;
@@ -29,6 +25,8 @@ h1, h2, h3, h4, p {
 
 .section-title {
   width: 60%;
+  margin: 0;
+  padding: 0;
   text-align: center;
   line-height: 1.15;
   font-size: 60px;
@@ -37,6 +35,8 @@ h1, h2, h3, h4, p {
 
 .section-subtitle {
   width: 60%;
+  margin: 0;
+  padding: 0;
   text-align: center;
   line-height: 34px;
   font-size: 24px;
@@ -53,12 +53,16 @@ h1, h2, h3, h4, p {
 }
 
 .table__heading {
+  padding: 0;
+  margin: 0;
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
 }
 
 .table__text {
+  padding: 0;
+  margin: 0;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
@@ -89,15 +93,18 @@ h1, h2, h3, h4, p {
 
 .header__title {
   width: 730px;
-  margin-left: 64px;
+  margin: 0 0 0 64px;
+  padding: 0;
   font-size: 102px;
   font-weight: bold;
   line-height: 96px;
 }
 
 .header__subtitle {
-  position: absolute;
   width: 388px;
+  margin: 0;
+  padding: 0;
+  position: absolute;
   left: 64px;
   bottom: 30px;
   z-index: 1;
@@ -107,6 +114,8 @@ h1, h2, h3, h4, p {
 }
 
 .header__link {
+  padding: 0;
+  margin: 0;
   color: #2f80ed;
   text-decoration: none;
 }
@@ -151,6 +160,8 @@ h1, h2, h3, h4, p {
 
 .two-columns__brief {
   width: 175px;
+  padding: 0;
+  margin: 0;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
@@ -167,12 +178,16 @@ h1, h2, h3, h4, p {
 }
 
 .two-columns__paragraph {
+  padding: 0;
+  margin: 0;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
 }
 
 .two-columns__span-accent {
+  padding: 0;
+  margin: 0;
   line-height: 34px;
   font-size: 24px;
   font-weight: bold;
@@ -223,7 +238,8 @@ h1, h2, h3, h4, p {
 
 .feynman__title {
   width: 648px;
-  margin: auto auto auto auto;
+  padding: 0;
+  margin: auto;
   text-align: center;
   line-height: 1.15;
   font-size: 120px;
@@ -231,6 +247,7 @@ h1, h2, h3, h4, p {
 }
 
 .feynman__subtitle {
+  padding: 0;
   margin: 70px auto auto auto;
   text-align: center;
   line-height: 51px;
@@ -239,6 +256,8 @@ h1, h2, h3, h4, p {
 }
 
 .feynman__link {
+  padding: 0;
+  margin: 0;
   position: absolute;
   top: 50%;
   right: 48px;
@@ -350,25 +369,26 @@ h1, h2, h3, h4, p {
 }
 
 .footer__author {
+  padding: 18px 0;
+  margin: 0;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
-  padding-top: 18px;
-  padding-bottom: 18px;
 }
 
 .footer__column-heading {
+  padding: 0;
+  margin: 0 0 20px 0;
   line-height: 30px;
   font-size: 18px;
   font-weight: bold;
-  margin-bottom: 20px;
 }
-
-
 
 .footer__social-icon {}
 
 .footer__column-link {
+  padding: 0;
+  margin: 0;
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
