@@ -3,6 +3,12 @@ h1, h2, h3, h4, p {
   padding: 0;
 }
 
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
 /* PAGE */
 
 .page {
@@ -322,12 +328,20 @@ h1, h2, h3, h4, p {
   margin-bottom: 16px;
 }
 
+.footer__column {}
+
 .footer__column_content_copyright {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   width: 50%;
 }
+
+.footer__column_content_info {
+
+}
+
+.footer__column_content_social {}
 
 .logo_place_footer {
   background-image: url(../images/logo_place_footer.svg);
@@ -343,10 +357,6 @@ h1, h2, h3, h4, p {
   padding-bottom: 18px;
 }
 
-.footer__column_content_info {
-
-}
-
 .footer__column-heading {
   line-height: 30px;
   font-size: 18px;
@@ -354,7 +364,7 @@ h1, h2, h3, h4, p {
   margin-bottom: 20px;
 }
 
-.footer__column_content_social {}
+
 
 .footer__social-icon {}
 
