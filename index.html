@@ -20,7 +20,7 @@
 
     <main>
       <!-- START: description -->
-      <div class="description">
+      <section class="description">
         <div class="two-columns">
           <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
           <div class="two-columns__main-text">
@@ -29,11 +29,11 @@
             <p class="two-columns__paragraph">Конкретные техники и упражнения помогают изменить подход к обучению, сделать его эффективным и захватывающим. Эти же техники применяются на примере обучения в Практикуме.</p>
           </div>
         </div>
-      </div>
+      </section>
       <!-- END: description -->
 
       <!-- START: techniques -->
-      <div class="techniques">
+      <section class="techniques">
         <h2 class="section-title techniques__section-title">Техники обучения</h2>
         <p class="section-subtitle techniques__section-subtitle">Пять практик от Барбары Оакли</p>
         <ul class="cards list">
@@ -66,41 +66,45 @@
             <p class="cards__description">Повторите про себя, запишите, расскажите другу: вам только кажется, что вы владеете новой темой.</p>
           </li>
         </ul>
-      </div>
+      </section>
       <!-- END: techniques -->
 
       <!-- START: video -->
-      <div class="video">
+      <section class="video">
         <h2 class="section-title video__section-title">Видео нa TED</h2>
         <p class="section-subtitle video__section-subtitle">Для тех, кто любит прокрастинировать</p>
-        <div class="video__iframes">
-          <iframe class="video__iframe" width="515" height="316" src="https://www.youtube.com/embed/arj7oStGLkU" allowfullscreen></iframe>
-          <iframe class="video__iframe" width="515" height="316" src="https://www.youtube.com/embed/5MgBikgcWnY" allowfullscreen></iframe>
-         </div>
-      </div>
+        <ul class="video__iframes list">
+          <li>
+            <iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU" allowfullscreen></iframe>
+          </li>
+          <li>
+            <iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY" allowfullscreen></iframe>
+          </li>
+        </ul>
+      </section>
       <!-- END: video -->
 
       <!-- START: oakley -->
-      <div class="oakley">
+      <section class="oakley">
         <div class="two-columns oakley__two-columns">
           <h2 class="two-columns__brief">История Барбары Оакли.</h2>
           <div class="two-columns__main-text">
             <p class="two-columns__paragraph">С детства Барбаре не давалась математика. Она считала себя законченным гуманитарием, причём далеко не самым умным. В армии она изучала русский язык, чтобы получить надбавку, да так успешно, что её выдвинули в командиры. Но для продвижения по службе нужно было сдавать математику. И тогда Барбара придумала свой подход к точным наукам. Оказалось, если вам что-то «плохо даётся», ваши добытые трудом знания гораздо глубже, чем у тех, кому всё ясно с первого взгляда.</p>
           </div>
         </div>
-      </div>
+      </section>
       <!-- END: oakley -->
 
       <!-- START: feynman -->
-      <div class="feynman">
+      <section class="feynman">
         <h2 class="feynman__title">Метод Фейнмана</h2>
         <p class="feynman__subtitle">Выучить и не забыть.</p>
         <a class="feynman__link link-animation" href="#">Подробнее &rarr;</a>
-      </div>
+      </section>
       <!-- END: feynman -->
 
       <!-- START: digits -->
-      <div class="digits">
+      <section class="digits">
         <h2 class="section-title section-title_theme_light">Цифры и факты</h2>
         <p class="section-subtitle section-subtitle_theme_light digits__section-subtitle">Про учёбу и мозг</p>
         <ul class="table table_theme_light list">
@@ -148,15 +152,15 @@
             <p class="table__text table__text_theme_light">Открытие условного рефлекса</p>
           </li>
         </ul>
-      </div>
+      </section>
       <!-- END: digits -->
 
       <!-- START: khan -->
-      <div class="khan">
+      <section class="khan">
         <div class="khan__container">
           <p class="khan__author">Салман Хан</p>
           <h2 class="khan__title">Весь мир — школа</h2>
-          <p class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.</p>
+          <blockquote class="khan__quote">Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.</blockquote>
           <p class="khan__quote-author">Джордж Лукас</p>
           <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
           <div class="khan__book-container">
@@ -164,11 +168,11 @@
             <a class="khan__buy-link link-animation" href="#">Купить книгу &rarr;</a>
           </div>
         </div>
-      </div>
+      </section>
       <!-- END: khan -->
 
       <!-- START: kaufman -->
-      <div class="kaufman">
+      <section class="kaufman">
         <div class="kaufman__triangle rotation"></div>
         <h2 class="section-title section-title_theme_dark">Принципы обучения</h2>
         <p class="section-subtitle section-subtitle_theme_dark kaufman__section-subtitle">от Джоша Кауфмана</p>
@@ -217,38 +221,38 @@
             <p class="table__text table__text_theme_dark">Уделяйте внимание количеству и скорости.</p>
           </li>
         </ul>
-      </div>
+      </section>
       <!-- END: kaufman -->
-    </main>
 
-    <!-- START: resources -->
-    <div class="resources">
-      <h2 class="section-title">Полезные ресурсы</h2>
-      <p class="section-subtitle resources__section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
-      <ul class="resources__logo-zone list">
-        <li>
-          <a class="resources__link link-animation" href="#">
-            <img class="resources__logo" src="./images/logo/resources-arzamas.svg" alt="Просветительский проект - Арзамас">
-          </a>
-        </li>
-        <li>
-          <a class="resources__link link-animation" href="#">
-            <img class="resources__logo" src="./images/logo/resources-n1.svg" alt="Научно-популярное интернет издание - Эн плюс один">
-          </a>
-        </li>
-        <li>
-          <a class="resources__link link-animation" href="#">
-            <img class="resources__logo" src="./images/logo/resources-strelka.svg" alt="Институт медиа, архитектуры и дизайна - Стрелка">
-          </a>
-        </li>
-        <li>
-          <a class="resources__link link-animation" href="#">
-            <img class="resources__logo" src="./images/logo/resources-polka.svg" alt="Образовательный проект о самых важных произведениях русской литературы - Полка">
-          </a>
-        </li>
-      </ul>
-    </div>
-    <!-- END: resources -->
+      <!-- START: resources -->
+      <section class="resources">
+        <h2 class="section-title">Полезные ресурсы</h2>
+        <p class="section-subtitle resources__section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
+        <ul class="resources__logo-zone list">
+          <li>
+            <a class="resources__link link-animation" href="#">
+              <img class="resources__logo" src="./images/logo/resources-arzamas.svg" alt="Просветительский проект - Арзамас">
+            </a>
+          </li>
+          <li>
+            <a class="resources__link link-animation" href="#">
+              <img class="resources__logo" src="./images/logo/resources-n1.svg" alt="Научно-популярное интернет издание - Эн плюс один">
+            </a>
+          </li>
+          <li>
+            <a class="resources__link link-animation" href="#">
+              <img class="resources__logo" src="./images/logo/resources-strelka.svg" alt="Институт медиа, архитектуры и дизайна - Стрелка">
+            </a>
+          </li>
+          <li>
+            <a class="resources__link link-animation" href="#">
+              <img class="resources__logo" src="./images/logo/resources-polka.svg" alt="Образовательный проект о самых важных произведениях русской литературы - Полка">
+            </a>
+          </li>
+        </ul>
+      </section>
+      <!-- END: resources -->
+    </main>
 
     <!-- START: footer -->
     <footer class="footer">
@@ -258,7 +262,7 @@
           <p class="footer__author">&copy; Руслан Михалев</p>
         </div>
         <div class="footer__column footer__column_content_info">
-          <h4 class="footer__column-heading">О Практикуме</h4>
+          <h3 class="footer__column-heading">О Практикуме</h3>
           <nav class="footer__column-links">
             <ul class="list">
               <li>
@@ -274,7 +278,7 @@
           </nav>
         </div>
         <div class="footer__column footer__column_content_social">
-          <h4 class="footer__column-heading">Соцсети</h4>
+          <h3 class="footer__column-heading">Соцсети</h3>
           <nav class="footer__column-links">
             <ul class="list">
               <li>
